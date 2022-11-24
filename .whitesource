@@ -1,0 +1,31 @@
+{
+  "scanSettings": {
+    "configMode": "AUTO",
+    "configExternalURL": "",
+    "projectToken": "",
+    "baseBranches": []
+  },
+  "checkRunSettings": {
+    "vulnerableCheckRunConclusionLevel": "failure",
+    "displayMode": "diff"
+  },
+  "issueSettings": {
+    "minSeverityLevel": "LOW",
+    "issueType": "DEPENDENCY"
+  },
+  "remediateSettings": {
+    "workflowRules": {
+      "enabled": true
+    }
+  },
+      "hostRules": [
+  {
+    "matchHost": "https://wsdev.jfrog.io/artifactory/api/npm/haythem-npm/",
+    "hostType": "npm",
+    "username": "sultanabubaker",
+    "encrypted": {
+      "password": "wcBMA90FtVIhcznKAQf7BHZIhMayxj8lUudGBRIiBa2/ROIRV7oN8fbwRItz1Y11v9q0NM3T3Z8e2+jjy/cHAD0EmZlfF/aZvoVmg8YxOAguqNY2f1aJrgG+OJsktOUM/1vFFLYAk9RVBC3yIiXajh/LSoLTpJOrsJb+ubiPCwHK3V+QNk4v0CYvMay5kzS4P5HdlMLpcSgDLSbSblvMB3drjHipggudF39LCSIDxx00yNtOK73H/DL7bfchbL2ORXE5aZeAfHdbnVAJ5BKfS1uayPuYhNkaB3MYVpT0l600A0O6ZPqHlnQRb1dEkPg9fQLxFVwHeo362JAzz0ZkAD9FEtMcM7pgZvxOrPKqINJfAXL+bM7aecNGqzglKzpJWiNCCQsxsAp5p/RcKXkGWnsz2o/LSZhK3/Og9/WHGByu6WDPicP3fza1x3wv0Xexur0kckIDdQDuFwmVmx1ppbrneF4t7JY8HO4EOliuu8Q"
+    }
+   }   
+  ]
+}
